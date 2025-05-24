@@ -2,47 +2,66 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Telegram Link Test Page</title>
+  <title>Telegram Link Test</title>
   <style>
     body { font-family: sans-serif; padding: 2rem; }
     h1 { margin-bottom: 1rem; }
     ol li { margin: 0.7rem 0; }
-    a { color: #1a73e8; text-decoration: none; font-size: 18px; }
-    a:hover { text-decoration: underline; }
-    button { padding: 10px 16px; font-size: 16px; margin-top: 10px; }
+    a, button { font-size: 16px; color: #1a73e8; text-decoration: none; padding: 8px; }
+    button { cursor: pointer; border: none; background: none; }
+    button:hover, a:hover { text-decoration: underline; }
   </style>
 </head>
 <body>
-  <h1>Telegram Open Test (Study_Something_special)</h1>
-
+  <h1>Telegram Link Test Page</h1>
+  <p>Testing with your channel: <strong>Study_Something_special</strong></p>
   <ol>
     <li>
+      <!-- 1. Direct tg:// URI -->
       <a href="tg://resolve?domain=Study_Something_special">
         1. Open via <code>tg://resolve?domain=Study_Something_special</code>
       </a>
     </li>
     <li>
+      <!-- 2. Intent URI with fallback -->
       <a href="intent://resolve?domain=Study_Something_special#Intent;scheme=tg;package=org.telegram.messenger;S.browser_fallback_url=https%3A%2F%2Ft.me%2FStudy_Something_special;end">
-        2. Open via Android Intent URI (with fallback)
+        2. Open via Android Intent (with web fallback)
       </a>
     </li>
     <li>
+      <!-- 3. HTTPS web link -->
       <a href="https://t.me/Study_Something_special" target="_blank" rel="noopener">
         3. Open via Web (https://t.me/Study_Something_special)
       </a>
     </li>
     <li>
-      <button onclick="openTelegram()">4. Open via JS (iframe inject)</button>
+      <!-- 4. window.open of Intent URI -->
+      <button onclick="
+        window.open(
+          'intent://resolve?domain=Study_Something_special#Intent;scheme=tg;package=org.telegram.messenger;end',
+          '_blank'
+        );
+      ">
+        4. Open via JS <code>window.open()</code> Intent
+      </button>
+    </li>
+    <li>
+      <!-- 5. iframe injection trick -->
+      <button onclick="
+        var iframe = document.createElement('iframe');
+        iframe.style.display = 'none';
+        iframe.src = 'tg://resolve?domain=Study_Something_special';
+        document.body.appendChild(iframe);
+      ">
+        5. Open via JS-injected <code>iframe</code>
+      </button>
+    </li>
+    <li>
+      <!-- 6. Full URL variant -->
+      <a href="https://t.me/Study_Something_special" target="_blank" rel="noopener">
+        6. Open full URL directly
+      </a>
     </li>
   </ol>
-
-  <script>
-    function openTelegram() {
-      let iframe = document.createElement("iframe");
-      iframe.style.display = "none";
-      iframe.src = "tg://resolve?domain=Study_Something_special";
-      document.body.appendChild(iframe);
-    }
-  </script>
 </body>
 </html>
