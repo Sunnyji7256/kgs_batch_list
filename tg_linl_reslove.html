@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Telegram Link Tests</title>
+  <style>
+    body { font-family: sans-serif; padding: 2rem; }
+    h1 { margin-bottom: 1rem; }
+    ol li { margin: 0.5rem 0; }
+    a { color: #1a73e8; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h1>Telegram Link Test Page</h1>
+  <p>Replace <code>yourChannelName</code> with your actual Telegram username or channel alias (without the “@”).</p>
+  <ol>
+    <li>
+      <!-- 1. Direct Telegram URI -->
+      <a href="tg://resolve?domain=yourChannelName">
+        1. Open via <code>tg://resolve?domain=</code>
+      </a>
+    </li>
+    <li>
+      <!-- 2. Intent URI with fallback -->
+      <a href="
+        intent://resolve?domain=yourChannelName
+          #Intent;
+            scheme=tg;
+            package=org.telegram.messenger;
+            S.browser_fallback_url=https%3A%2F%2Ft.me%2FyourChannelName;
+          end
+      ">
+        2. Open via Android Intent (with web fallback)
+      </a>
+    </li>
+    <li>
+      <!-- 3. HTTPS web link fallback -->
+      <a href="https://t.me/yourChannelName" target="_blank" rel="noopener">
+        3. Open via Web (https://t.me/…)
+      </a>
+    </li>
+    <li>
+      <!-- 4. JS-triggered window.open of Intent URI -->
+      <a href="#" onclick="
+        window.open(
+          'intent://resolve?domain=yourChannelName#Intent;scheme=tg;package=org.telegram.messenger;end',
+          '_blank'
+        );
+        return false;
+      ">
+        4. Open via JS <code>window.open()</code> Intent
+      </a>
+    </li>
+  </ol>
+</body>
+</html>
