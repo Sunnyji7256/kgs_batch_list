@@ -1,0 +1,299 @@
+{
+  "success": 1,
+  "superStreams": [
+    {
+      "id": 2,
+      "superStreamName": "9th",
+      "isSelected": "0",
+      "streams": [
+        {
+          "id": 2,
+          "streamName": "Bihar Board",
+          "description": "Bihar Board",
+          "streamImage": "0a6d09cee2f6b3e901e3a532ef4a7e9c.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 3,
+          "streamName": "UP Board",
+          "description": "UP Board",
+          "streamImage": "30665fd92c328fe0e259a83479808b4d.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 4,
+          "streamName": "Jharkhand Board",
+          "description": "JAC Board",
+          "streamImage": "33025668dbe9dbce35fac9dfb34776ad.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 5,
+          "streamName": "MP Board",
+          "description": "MP Board",
+          "streamImage": "a191fa2f26751c84a370de1df0ad2541.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 6,
+          "streamName": "Rajasthan Board",
+          "description": "Rajasthan Board",
+          "streamImage": "0e1adedc2c3241fd218ea9204ae0d17f.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 7,
+          "streamName": "Haryana Board",
+          "description": "Haryana Board",
+          "streamImage": "af92a8259bcedb4b55693ace8a0aedd0.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 8,
+          "streamName": "Uttarakhand Board",
+          "description": "UK Board",
+          "streamImage": "fbe6e0702a4ed88f873316600a4e5cd5.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 9,
+          "streamName": "Chhattisgarh Board",
+          "description": "Chhattisgarh Board",
+          "streamImage": "86f209c62ddfc5acbebbed748f6c419d.jpg",
+          "isSelected": "0"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "superStreamName": "10th",
+      "isSelected": "0",
+      "streams": [
+        {
+          "id": 10,
+          "streamName": "Bihar Board",
+          "description": "Bihar Board",
+          "streamImage": "4760dd2e2723f922c47f956892b75435.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 11,
+          "streamName": "UP Board",
+          "description": "UP Board",
+          "streamImage": "821c910a6af4a310dea41ea62ea62052.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 12,
+          "streamName": "Jharkhand Board",
+          "description": "JAC Board",
+          "streamImage": "074c7fab30d4100a74875a2d49598c40.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 13,
+          "streamName": "MP Board",
+          "description": "MP Board",
+          "streamImage": "de6e5b3cd47f0f77c80a82b45d23e78a.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 14,
+          "streamName": "Rajasthan Board",
+          "description": "Rajasthan Board",
+          "streamImage": "6f25fb2e7d728fc40a38c5bf1f65f19e.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 15,
+          "streamName": "Haryana Board",
+          "description": "Haryana Board",
+          "streamImage": "4caa89102e3d671d4ce6fcc44a8eb04b.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 16,
+          "streamName": "Uttarakhand Board",
+          "description": "Uttarakhand Board",
+          "streamImage": "ed4d021861f1c2e1dc4bf0a4c0db6eb9.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 17,
+          "streamName": "Chhattisgarh Board",
+          "description": "Chhattisgarh Board",
+          "streamImage": "49c447b0d1b1bdc23691b069c2dcb808.jpg",
+          "isSelected": "0"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "superStreamName": "11th",
+      "isSelected": "0",
+      "streams": [
+        {
+          "id": 18,
+          "streamName": "Bihar Board",
+          "description": "Bihar Board",
+          "streamImage": "429c088b53dd964921f0e6ebdcb2bad0.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 19,
+          "streamName": "UP Board",
+          "description": "UP Board",
+          "streamImage": "35d710e2fb10055f307f228be8f0adbe.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 20,
+          "streamName": "Jharkhand Board",
+          "description": "Jharkhand Board",
+          "streamImage": "d762129f345c8bc02ece28ac22f8fea6.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 21,
+          "streamName": "MP Board",
+          "description": "MP Board",
+          "streamImage": "fbdc5eab65e41b026ce85b2ab5986e50.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 22,
+          "streamName": "Rajasthan Board",
+          "description": "Rajasthan Board",
+          "streamImage": "1d9189cf8f51fddadbb4a3fe268f5e72.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 23,
+          "streamName": "Haryana Board",
+          "description": "Haryana Board",
+          "streamImage": "cf46e4a6d86c75e6aef55b29f94e9031.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 24,
+          "streamName": "Uttarakhand Board",
+          "description": "Uttarakhand Board",
+          "streamImage": "a2fe68010a2ee1fd21c78a8e3485df0c.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 25,
+          "streamName": "Chhattisgarh Board",
+          "description": "Chhattisgarh Board",
+          "streamImage": "926c0c3d2236058605d6e89ef1cbf253.jpg",
+          "isSelected": "0"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "superStreamName": "12th",
+      "isSelected": "0",
+      "streams": [
+        {
+          "id": 26,
+          "streamName": "Bihar Board",
+          "description": "Bihar Board",
+          "streamImage": "e15e4fa642dbb9452645340b79838ca5.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 27,
+          "streamName": "UP Board",
+          "description": "UP Board",
+          "streamImage": "cf9549aa952d161633d3756dcf0b1818.jpg",
+          "isSelected": "1"
+        },
+        {
+          "id": 28,
+          "streamName": "Jharkhand Board",
+          "description": "Jharkhand Board",
+          "streamImage": "309f338158ef84e48ed24c865d4c3e4e.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 29,
+          "streamName": "MP Board",
+          "description": "MP Board",
+          "streamImage": "585664f8ceb9d01ddd3885d8b8cc12df.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 30,
+          "streamName": "Rajasthan Board",
+          "description": "Rajasthan Board",
+          "streamImage": "b85f3ae239a0342bb3998f15c6892c8e.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 31,
+          "streamName": "Haryana Board",
+          "description": "Haryana Board",
+          "streamImage": "78e5c636efd903b2f2115c233f89d029.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 32,
+          "streamName": "Uttarakhand Board",
+          "description": "Uttarakhand Board",
+          "streamImage": "a8d30650dd019748f4f4d5d3d6aa0fe9.jpg",
+          "isSelected": "0"
+        },
+        {
+          "id": 33,
+          "streamName": "Chhattisgarh Board",
+          "description": "Chhattisgarh Board",
+          "streamImage": "e3acaa22328429febb58cf6dbb41043c.jpg",
+          "isSelected": "0"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "superStreamName": "Spoken",
+      "isSelected": "0",
+      "streams": [
+        {
+          "id": 34,
+          "streamName": "Spoken English",
+          "description": "Spoken",
+          "streamImage": "7db87ade313bcfa1b2b308282cf5f003.png",
+          "isSelected": "0"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "superStreamName": "Polytechnic",
+      "isSelected": "0",
+      "streams": [
+        {
+          "id": 35,
+          "streamName": "Bihar And Jharkhand",
+          "description": "Bihar And Jharkhand",
+          "streamImage": "8937d9bb5b06353e28dc69dfef3d2df1.png",
+          "isSelected": "0"
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "superStreamName": "Paramedical",
+      "isSelected": "0",
+      "streams": [
+        {
+          "id": 36,
+          "streamName": "All Board",
+          "description": "Paramedical Entrance",
+          "streamImage": "792515ed84dd266d54ae4cef5d1906c1.jpeg",
+          "isSelected": "0"
+        }
+      ]
+    }
+  ]
+}
